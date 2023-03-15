@@ -31,7 +31,7 @@
     "prepack": "prettier -c . && yarn lint && yarn test && yarn build"
   },
   "peerDependencies": {
-    "next": "^12.*",
+    "next": "^12.* || 13.*",
     "zod": "^3.*"
   },
   "devDependencies": {
